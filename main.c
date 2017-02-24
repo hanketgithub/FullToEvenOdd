@@ -73,7 +73,7 @@ int main(int argc, const char * argv[]) {
     fd_rd = open(argv[1], O_RDONLY);
     
     // specify output file name
-    cp = strchr(argv[1], '.');
+    cp = strrchr(argv[1], '.');
     strncpy(output.name, argv[1], cp - argv[1]);
     strcat(output.name, "i");
     strcat(output.name, cp);
