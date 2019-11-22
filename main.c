@@ -2,7 +2,7 @@
 //  main.c
 //  FullToEvenOdd
 //
-//  Splits a full YUV into 2 YUVs: one contains even lines (Top), and the other contains odd lines (Bottom)
+//  Splits a full YUV into even lines (Top) and odd lines (Bottom)
 //
 //  Created by Hank Lee on 8/31/15.
 //  Copyright (c) 2015 Hank Lee. All rights reserved.
